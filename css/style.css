@@ -1,0 +1,222 @@
+/*********************
+ Global CSS
+**********************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&family=Raleway:wght@300;400;600&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+input:focus{
+	outline: none;
+}
+button:focus{
+	outline: none;
+}
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+      }
+
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+body{
+	background-color: #F2F2F2;
+}
+/*********************
+header CSS
+**********************/
+header{
+	width: 100%;
+	padding: 15px 0;
+}
+.nav-link{
+	color:#644F9C !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size:14px;
+	margin-right:20px;
+	position: relative;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.nav-link:hover{
+	color:#FF6F00 !important;
+}
+
+/*********************
+banner  CSS
+**********************/
+.banner-section{
+	width: 100%;
+}
+
+.banner-desc h2{
+	margin: 30px 0 20px;
+	color:#644F9C ;
+}
+
+.banner-desc h3{
+	font-size: 16px;
+	color:#404040;
+    margin: 20px 0;
+    
+}
+.banner-right{
+	height: 40vh;
+}
+/*********************
+process CSS
+**********************/
+.process-section{
+	width: 100%;
+}
+
+.awesome{
+	padding: 60px 0;
+}
+
+.awesome i {
+	margin: 0 auto 10px;
+    font-size: 60px;
+    color: #1D4999;
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.awesome-icon{
+	display: flex;
+	flex-direction: column;
+}
+.awesome-icon button{
+	margin: 0 auto;
+    border: none;
+    padding: 10px 60px;
+    background: #644F9C;
+    width: 180px;
+	border-radius: 30px;
+	color: #fff;
+}
+/*********************
+featureCSS
+*********************/
+.feature-section{
+	width: 100%;
+	padding: 120px 0;
+	background-color: #f5f5f5;
+}
+.feature-section ul li {
+	width: 80%;
+    background: #333;
+    text-align: center;
+    margin-bottom: 2px;
+    height: 90px;
+    line-height: 90px;
+    color: #fff;
+}
+.active{
+	background-color: #ff8b38 !important;
+	color: #fff;
+}
+.feature-section h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #333333;
+}
+.feature-section p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #86878b;
+	width: 80%;
+	font-weight: 300;
+	margin: 40px 0;
+
+}
+.feature-section button{
+	
+	border:none;
+	padding: 10px 80px;
+	
+	border-radius: 30px;
+}
+
+/*******************
+Counter section CSS
+******************/
+.counter-section{
+	padding: 100px 0;
+	background-color: #644F9C;
+
+}
+.counter{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid;
+	justify-content: center;
+}
+#counter-1{
+	border: 4px dotted #fff;
+	color: #fff;
+}
+#counter-2{
+	background-color: #fff;
+	color: #644F9C;
+}
+#counter-3{
+	background-color: #FF6F00;
+	color: #fff;
+	border:none;
+}
+
+.slider-section{
+	padding: 100px 0;
+	background-color: red;
+}
+/*******************
+Footer section CSS
+*******************/
+.footer-section{
+	width: 100%;
+	background-color: #000;
+	padding: 20px 0;
+}
+.footer ul li{
+	display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 40px;
+}
+.footer ul li a{
+	color: #fff;
+	font-size: 24px;
+	color:#ccc;
+}
+.footer ul li :hover{
+	transform: scale(1.5);
+	transition: all .3s;
+}
+.copyright p{
+	text-align: center;
+	color: #ccc;
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 12px;
+	 font-weight: 300;
+}
