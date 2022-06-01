@@ -188,7 +188,10 @@ Counter section CSS
 
 .slider-section{
 	padding: 100px 0;
-	background-color: red;
+}
+.slider{
+	display: flex;
+    justify-content: space-around;
 }
 /*******************
 Footer section CSS
